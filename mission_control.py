@@ -7,3 +7,5 @@ print(type(agent_name))
 print(type(task_code))
 print(type(distance))
 print(type(mission_status))
+travel_distance = distance * 2
+print (travel_distance)
