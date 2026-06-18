@@ -9,3 +9,7 @@ print(type(distance))
 print(type(mission_status))
 travel_distance = distance * 2
 print (travel_distance)
+fuel = 1
+fuel_usage = 1 # liter/km
+fuel_needed = fuel_usage * travel_distance
+
