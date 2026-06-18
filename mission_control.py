@@ -32,7 +32,11 @@ countdown_in_hours = countdown_in_minuts / 60
 print(f"your mission start at {countdown_in_hours} hours. in minut at {countdown_in_minuts} .at seconds {countdown_conversion} ")
  
 #stap 9
-distance_formatting =input("How much distance in a kilometer? ")
+distance_formatting =input( "How much distance in a kilometer? ")
 distance_formatting =int(distance_formatting)
 distance_at_mails = distance_formatting * 0.6
 print(distance_at_mails)
+
+#stap 10
+up_agent_name =input("givme new name " )
+print(f"agent new name: {up_agent_name}, agent old name: {agent_name} ")
