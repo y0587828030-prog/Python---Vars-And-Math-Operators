@@ -14,5 +14,7 @@ fuel_usage = 1 # liter/km
 fuel_needed = fuel_usage * travel_distance
 
 print(f"fuel needed for the trip {fuel_needed}")
-
-
+total_fuel = 1000
+print(total_fuel)
+remaining_fuel = total_fuel - fuel_needed
+print remaining_fuel
